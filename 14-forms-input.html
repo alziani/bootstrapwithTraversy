@@ -12,14 +12,39 @@
       <h1 class="mb-5">Forms & Input</h1>
 
       <!-- Basic Form -->
+      <form>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <input type="checkbox" class="form-check-input" id="remember" />
+          <label for="remember" class="form-check-label">Remember Me</label>
+        </div>
+      </form>
 
       <br /><br />
 
       <!-- Other Fields -->
       <form>
         <!-- Select Fields -->
+        <div class="mb-3">
+          <select class="form-select">
+            <option>Best Time to call</option>
+            <option value="morning">morning</option>
+            <option value="afternoon">afternoon</option>
+            <option value="evening">evening</option>
+          </select>
+        </div>
 
         <!-- Textarea -->
+        <div class="mb-3">
+          <textarea class="form-control" placeholder="Message"></textarea>
+        </div>
 
         <!-- Switch -->
 
