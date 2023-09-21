@@ -12,7 +12,66 @@
       <h1 class="mb-5">Carousel</h1>
 
       <!-- Carousel -->
-      <div class="carousel slide" id="slider"></div>
+      <div class="carousel slide" id="slider">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            data-bs-slide-to="0"
+            data-bs-target="#slider"
+          ></button>
+          <button data-bs-slide-to="1" data-bs-target="#slider"></button>
+          <button data-bs-slide-to="2" data-bs-target="#slider"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="caroussel-item active">
+            <img src="./images/1.jpg" alt="" class="d-block w-50" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Placa Primo</h5>
+              <p>Tetuan</p>
+            </div>
+          </div>
+          <div class="caroussel-item">
+            <img src="./images/2.jpg" alt="" class="d-block w-50" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>El Feddan</h5>
+              <p>Tetuan</p>
+            </div>
+          </div>
+          <div class="caroussel-item">
+            <img src="./images/3.jpg" alt="" class="d-block w-50" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Medina</h5>
+              <p>Tetuan</p>
+            </div>
+          </div>
+          <div class="caroussel-item">
+            <img src="./images/4.jpg" alt="" class="d-block w-50" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>El Feddan</h5>
+              <p>Tetuan</p>
+            </div>
+          </div>
+        </div>
+        <!-- Buttons -->
+        <button
+          class="carousel-control-prev"
+          data-bs-slide="prev"
+          data-bs-target="#slider"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-slide="next"
+          data-bs-target="#slider"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
       <!-- Don't go past here -->
     </div>
